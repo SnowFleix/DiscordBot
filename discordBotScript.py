@@ -1,6 +1,6 @@
 import discord
 
-bannedWords = {"puta", "porca", "burra", "burro", "estupida", "estupido"}
+bannedWords = {"puta", "porca", "burra", "burro", "estupida", "estupido", "merda", "caralho", "cona", "pila"}
 
 
 class PortugalClient(discord.Client):
