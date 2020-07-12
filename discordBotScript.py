@@ -17,3 +17,4 @@ class PortugalClient(discord.Client):
 
 
 client = PortugalClient()
+client.run("")
