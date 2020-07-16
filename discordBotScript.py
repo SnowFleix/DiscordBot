@@ -2,6 +2,7 @@ import discord
 import random
 
 bannedWords = {"puta", "porca", "burra", "burro", "estupida", "estupido", "merda", "caralho", "cona", "pila"}
+
 rudeWordResponses = ["Could you say that again with grown-up language?",
                      "Your use of such derogatory language simply shows that your ability to articulate does not extend beyond the word 'f*ck'.",
                      "I would insult you back, but I’m afraid it might be incomprehensible to you.",
@@ -53,9 +54,7 @@ class PortugalClient(discord.Client):
     async def on_ready(self):
         print('Logged on as {0}!'.format(self.user))
     async def on_message(self, message):
-        if "lets fuck" in message.content.lower():
-            await message.channel.send("I'd rather not tbh")
-        elif "foda se" in message.content.lower():
+        if "foda se" in message.content.lower():
             await message.channel.send("I'd rather not tbh")
         elif message.content.lower() == "caralho":
             await message.channel.send("Yes I have big")
@@ -71,7 +70,7 @@ class PortugalClient(discord.Client):
         if message.author.name == "|Inês| (ijwtbhfe)":
             await message.channel.send('{0} tried to delete: {1}'.format(message.author.nick, message.content))
         if message.author.name == "fleix":
-            await message.channel.send('{0} tried to delete: {1}'.format(message.author.nick, message.content))
+            await message.channel.send('{0} tried to delete: {1}'.format(message.author.name, message.content))
 
 
 client = PortugalClient()
