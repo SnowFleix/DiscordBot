@@ -1,6 +1,7 @@
 import discord
 import random
 
+# you can obviously change the words in here so a) they're not portuguese and b) to suit any words you want
 bannedWords = {"puta", "porca", "burra", "burro", "estupida", "estupido", "merda", "caralho", "cona", "pila"}
 
 rudeWordResponses = ["Could you say that again with grown-up language?",
