@@ -65,8 +65,6 @@ class PortugalClient(discord.Client):
             await message.channel.send("I'm sorry I hurt your feelings when I called you stupid, I just thought you already knew")
         elif "tell me a yo mama joke" in message.content.lower():
             await message.channel.send(random.choice(yoMamaJokes))
-        elif any(word in message.content.lower() for word in bannedWords):
-            await message.channel.send(random.choice(rudeWordResponses))
     async def on_message_delete(self, message):
         if message.author.name == "|Inês| (ijwtbhfe)":
             await message.channel.send('{0} tried to delete: {1}'.format(message.author.nick, message.content))
