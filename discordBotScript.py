@@ -1,30 +1,6 @@
 import discord
 import random
 
-# you can obviously change the words in here so a) they're not portuguese and b) to suit any words you want
-bannedWords = {"puta", "porca", "burra", "burro", "estupida", "estupido", "merda", "caralho", "cona", "pila"}
-
-rudeWordResponses = ["Could you say that again with grown-up language?",
-                     "Your use of such derogatory language simply shows that your ability to articulate does not extend beyond the word 'f*ck'.",
-                     "I would insult you back, but I’m afraid it might be incomprehensible to you.",
-                     "Do you kiss your mother with that mouth?",
-                     "You were raised like a wild animal",
-                     "Your cursing is only showing your lack of intelligence and inability to express yourself with words",
-                     "Why does offending people with your diarrhea of the mouth make you think you are gaining approval and acceptance?",
-                     "Maybe you can try say somethingggggg smart?",
-                     "If swearing burned calories you'd finally be able to stop being a fat fuk",
-                     "I'm just wondering, how you comb your hair so the horns don't show?",
-                     "Light travels faster than sound, that's why you appear bright until you speak",
-                     "I guess you just need a high five. In the face. With a chair.",
-                     "If I wanted to kill myself I could just climb up your ego then jump down to your IQ level",
-                     "Are you always this stupid or are you making special effort for today?",
-                     "Is your ass jealous of that huge shit that just came out your mouth?",
-                     "You must've been born on a motorway cause that's where most accidents happen",
-                     "I think you sound better with your mouth closed",
-                     "Somewhere out there a tree is working hard to replace the oxygen you wasted",
-                     "You should learn from your parents mistakes, use birth control",
-                     "Why don't you go cool off and slip into something more comfortable, like a coma"]
-
 yoMamaJokes = ["Yo momma is so fat when she got on the scale it said, \"I need your weight not your phone number.\"",
                "Yo momma is so fat, I took a picture of her last Christmas and it's still printing.",
                "Yo momma is so fat that when she went to the beach a whale swam up and sang, \"We are family, even though you're fatter than me.\"",
